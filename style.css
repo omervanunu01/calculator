@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#calculator {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    width: 400px;
+    margin: auto;
+}
+
+table {
+    border-spacing: 10px;
+}
+
+#textBox {
+    width: 270%;
+    padding: 20px;
+}
+
+button {
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    height: 60px;
+    width: 80px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+#clear {
+    width: 90%;
+    margin-left: 230%;
+
+}
